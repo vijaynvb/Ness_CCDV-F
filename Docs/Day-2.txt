@@ -1,0 +1,18 @@
+
+
+1. Claude code [Code assistant] [web solution, ai solutions]
+    CLI 
+    VS Code 
+    Intelej
+    VS Studio
+    eclipse 
+    
+
+2. AI Solutions: -> LLM's
+    1. Gen AI -> llm give responses -> Python Antropic [Client]
+        Platform.claude.com/ llm models are hosted -> API Key -> Credits 
+
+
+    2. AI Agents -> agents 
+    3. Agentic AI Applications 
+        Goal [orcastrator] -> uses AI Agents and 
