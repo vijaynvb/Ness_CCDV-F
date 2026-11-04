@@ -1,0 +1,58 @@
+
+
+
+Anthropic -> 
+    1. claude.ai -> chatgpt
+    2. cowork
+    3. claude code [Agentic AI -> service] [ai assitant - code generation]
+    4. API
+        1. Claude SDK 
+        2. Claude Agent SDK -> Agentic-Ai Applications 
+
+Claude Code - AI Applications -> C/S application
+
+Client                      server  
+Claude code [stored]        LLM  -> [Stateless Service] -> sla -> cache [5m, 1hr]
+prompt      request         process [generated content]
+claude.ai                   Opus, Haiku, Fabel, Sonet
+cowork
+
+
+LLM -> 
+    1. Data -> Internet data publicly accessable [CCNet -> 2007 - till date]
+                1. github 
+                2. wikipedia
+                3. stack exchange 
+                4. youtube
+                5. any website
+    2. Algorithm -> Tranformers [2017] -> GenAI -> Deep Learning  -> ML -> AI 
+
+Limitation
+1. LLM - SLM - Hallucination -> 
+    1. Finacial doamin 
+    2. Healthcare domain
+    3. Geolocation -> maps
+
+    prompt engg: system instruction: [for banking domain]
+    Quesgtion -> where is the bank ?
+    Answer: citi bank is in next lane
+            blood bank is in ny
+            river bank is far from here 
+
+2. Context Size [272k, 1m tokens] 
+    1. model selection 
+        1. Model card -SLM - waht it is been trained on 
+        2. evaluation report -> leaderboard 
+        chat with pdf -> 100 pages -> limit 1 million tokens
+            1. ask question-> 
+    
+    2. Client -> preprocess the pdf and give releavant data 
+       Context enhancement / engg 
+        1. RAG [document loadig, spliting, embedding, retrevial [search query], appending]
+        2. Tool Calling 
+
+1. AI Solutions: -> LLM's
+    1. Gen AI -> Claude.ai -> chatgpt
+    2. AI Agents -> agents 
+    3. Agentic AI Applications 
+        Goal [orcastrator] -> uses AI Agents and 
