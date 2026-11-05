@@ -16,3 +16,12 @@
     2. AI Agents -> agents 
     3. Agentic AI Applications 
         Goal [orcastrator] -> uses AI Agents and 
+
+3. roles: 
+    system= "u are a support agent on banking domain"
+    session
+    [user = "hi"
+    assitant =" hi wecome"
+    user = "my name is vijay"
+    assitant= "hi vijay"]
+    redactation -> summary 
