@@ -1,0 +1,42 @@
+
+
+Tool Use: not all llm which have this feature 
+    1. llm -> cut of date -> realtime 
+
+    Function(){
+        gets the data from anywhere -> db, api ...
+    } 
+
+    @Tool
+    fetchrestapidata(a,b){
+        """ fetch the employee details """
+        httpclient -> Apikey
+        json 
+        return json
+    }
+
+    1. client end [our app request] 
+    2. server end [llm]
+
+
+    create(model, mx_token, messages, tools=[add]) -> llm 
+    call the add method [execute the method] return the value to llm ->  llm your llm will use the value for the task
+    response
+
+    antropic [client] -> llm [model know how to give command for the client]
+
+prompt = tool """ My addtion logic for all the addtions requested """, meesage = add 5 and 10
+
+
+Input [text, image, video, audio]  -> [vector arrary] embedding llm -> out 
+
+
+Create writer -> temperature= 0 top_k = 1000 
+discriminative [yes no] -> temperature = 1 top_k = 2
+
+
+antrocpic client [string into a method call] [reflection]
+
+def get_weather(city):
+    implement my api call
+    return the json 
