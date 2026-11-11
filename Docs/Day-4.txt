@@ -1,0 +1,30 @@
+
+
+
+Inputs: 
+    text: language models 
+    text, image, document, video, audio: multi model - claude
+    embedingmodel -> input as text and out put vector array as per the llm's need -> vouage vector db
+
+Request: 
+    content: 
+        text
+        image
+        document
+
+client                          server  [storage 500mb to 1tb] [file-id] -> prompt+file content [token costs]  [llm]
+request 1 -> fileid  
+
+
+Prompt Engg -> Context engginer
+
+support ai chat bot: modems
+    1. system instruction: you are it support chat bot answer only the questions related the context
+    2. context: my products are modems +++. 272k, 1M, too much of data is halucination
+  * 3. input data: my internet is not working 
+    4. output indicator: answer in 2 sentences and be polite 
+
+1. semantic search : rag 
+    NLP: delete the file.txt, move the file.txt to trash, put the file.txt in bin
+2. BM25 -> Best match 25
+    exact keywords search 

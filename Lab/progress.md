@@ -1,0 +1,2 @@
+- Checked auth module: no issues.
+- TODO: review payment module for input validation.
