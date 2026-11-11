@@ -1,0 +1,70 @@
+1. AI Solutions: -> LLM's -> Claude Developer frameworks
+    1. Gen AI -> antropic -> llm via api's
+        Client -> LLM -> chat application
+    2. AI Agents -> agents 
+        Agent [LLM, Tool, RAG, Memory, MCP's, Prompt Templating, Output indicators]
+    3. Agentic AI Applications -> Claude_Agent_Framework
+        goal -> multiple tasks -> orcastrator
+        
+LLM : 
+    1. tool calling features 
+    2. cache
+    3. 1m tokens
+    4. upload files to llm space and ask ur server to pick this file 
+
+tools: 
+    client custom function() frame 
+    server [web search, web fetch, code execution]
+
+Prompt engg -> 
+    system message
+    context : tools, rag, memory, mcp
+    human message: question
+    output indicator - structured output -> json, xml, form 
+
+RAG: retrevial agumented generation
+
+    data -> [cs,is, eee, mech]
+    question: what is toughest subject in 2 nd sem cs 
+
+Vecotr db: mongodb
+    1. voageai - embbeding mode provided by mongodb
+    2. vectordb -> 
+
+    RAG: 
+        semantic search: NLP -> search
+    Hybrid RAG: 
+        semantic
+        BM25: best match 25 
+    graph rag: 
+        chunk-1 -> chunk-10
+
+
+1.  AI Agents -> agents 
+        Agent [LLM, Tool, RAG, Memory, MCP's, Prompt Templating, Output indicators]
+    JD -> 
+        test case [prompts -> expected outpts]
+        models -> audit responses -> compare with human data
+
+        1. human 
+        2. code compare the responses -> json object [if else] -> grade
+        3. LLM as Judge -> semantic grade beter
+
+    Agentic AI Applications -> Claude_Agent_Framework
+        goal -> multiple tasks -> orcastrator
+
+    Observability - AIOps
+
+what are the different types of messages: 
+    tool_use
+    tool result
+    thinking 
+    humanmessage
+    ai message 
+
+Model context protocol -> antropic -> agent to agent to communication 
+Microsoft A2A 
+Google A2A
+
+Agentic AI Applications: 
+    1. third party agents -> MCP Client -> MCP Servers -> Figma -> uiux design 
